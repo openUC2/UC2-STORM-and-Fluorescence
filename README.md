@@ -6,7 +6,7 @@
 # openUC2 *STORM*
 ---
 
-This repository will help you to build and setup *A NICE TOOL*.
+This repository will help you to build *a widefield fluorescence microscope and show you how to upgrade it to perform advanced microscopy methods, such as (d)STORM*.
 
 *DESCRIBE WHAT IT DOES AND WHAT IT IS FOR.*
 
