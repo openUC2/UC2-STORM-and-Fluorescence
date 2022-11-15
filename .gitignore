@@ -1,0 +1,45 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.DS_Store*
+*.DS_Store
+*.dropbox
+~$*
+
+Icon 
+Icon*
+*Icon*
+*Icon
+Icon^M 
+
+CAD/APP_Ptychography/RESULT/*
+
+*.tmp
+
+# Word temporary
+~$*.doc*
+~$*
+
+
+# Word Auto Backup File
+Backup of *.doc*
+~$*.doc*
+~$*.docx*
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+*.tif
