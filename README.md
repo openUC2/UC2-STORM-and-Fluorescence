@@ -15,8 +15,16 @@ Curious to see what this looks like? Keep scrolling!
 *INCLUDE A NICE PICTURE AND/OR SCHEME.*
 
 <p align="center">
-<a href="#logo" name="logo"><img src="./IMAGES/"></a>
+<a href="#logo" name="logo"><img src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Inverted_STORM_v3_1.png"></a>
 </p>
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Inverted_STORM_v3.png"></a>
+</p>
+
+
+
+
 
 The overall price is in the range *OF LESS THAT A ZILLION*.
 
@@ -48,6 +56,7 @@ The overall price is in the range *OF LESS THAT A ZILLION*.
 
 ## Custom Python code *IF APPLICABLE*
 We also provide a code example for driving the device using a python driver. Please refer to the code and the package in the folder [PYTHON](./PYTHON).
+
 
 ## *CUSTOM FANCY SOFTWARE*
 We also provide *SOME SORCERY* for driving the device. Find the files in folder [*MY_AWESOME_SOFTWARE*]().
@@ -85,6 +94,9 @@ The original design files are in the [INVENTOR](./INVENTOR) folder. *FOR ANOTHER
 ### Electronics
 *THE FANCY ELECTRONICS TO RUN THE MOTOR! ...OR WHATEVER YOU USE THERE.*
 
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/UC2_STORM.png"></a>
+</p>
 
 ### Assembly of the DEVICE
 
