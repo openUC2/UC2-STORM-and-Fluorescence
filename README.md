@@ -3,52 +3,32 @@
 <a href="#logo" name="logo"><img src="https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/IMAGES/UC2_logo_text.png" width="400"></a>
 </p>
 
-# openUC2 *STORM*
+# U.C.*STORM*
 ---
 
 This repository will help you to build *a widefield fluorescence microscope and show you how to upgrade it to perform advanced microscopy methods, such as (d)STORM*.
 
-*DESCRIBE WHAT IT DOES AND WHAT IT IS FOR.*
 
-Curious to see what this looks like? Keep scrolling!
+## How does it look like?
 
-*INCLUDE A NICE PICTURE AND/OR SCHEME.*
-
-<p align="center">
-<a href="#logo" name="logo"><img src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Inverted_STORM_v3_1.png"></a>
-</p>
+### Top View
 
 <p align="center">
-<a href="#logo" name="logo"><img src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Inverted_STORM_v3.png"></a>
+<a href="#logo" name="logo"><img width=400 src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Inverted_STORM_v3_1.png"></a>
 </p>
 
+### Side View
 
-
-
-
-The overall price is in the range *OF LESS THAT A ZILLION*.
+<p align="center">
+<a href="#logo" name="logo"><img width=400 src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Inverted_STORM_v3.png"></a>
+</p>
 
 
 ***Features:***
-* IT MOVES?!
-* IT TAKES IMAGES?!
-* IT DOES YOUR LAUNDRY?!
-
-
-# Table of Content
-* **[Software](#-software)**
-* **[Hardware](#-hardware)**
-* **[Bill of materials](#-bill-of-materials)**
-* **[Electronics](#-electronics)**
-* **[Results](#-results)**
-
-
-## In-Action
-*SHARE YOUR FANCY GIF HERE. IT MOVES!*
-
-<p align="center">
-<a href="#logo" name="logo"><img src="./IMAGES/" width="600"></a>
-</p>
+* Single-channel fluorescence imaging
+* XYZ motorized automated microscopy
+* LED Matrix for quantitative imaging
+* Fully integrated into ImSwitch
 
 
 # Software
@@ -58,7 +38,10 @@ For the control and acquisition software, we use ImSwitch. This is an open-sourc
 
 ## Installation
 
-/Users/bene/ImSwitchConfig/config/imcontrol_options.json
+For the installation we advise you to have a look at the ImSwitch repository here https://github.com/kasasxav/ImSwitch/
+
+After setting up ImSwitch, you can enable STORM reconstruction in real time using the MicroEye Plugin by adding the following configuration to the ImSwitch config file that is located in `~/Documents/ImSwitchConfig/config/imcontrol_options.json`
+
 ```json
 {
     "setupFileName": "example_uc2_storm_alliedvision.json",
@@ -72,8 +55,11 @@ For the control and acquisition software, we use ImSwitch. This is an open-sourc
 }
 ```
 
-/Users/bene/ImSwitchConfig/imcontrol_setups/example_uc2_storm_alliedvision.json
-```
+The setup file with the actual hardware configuration can be placed here:
+
+`~/Documents/ImSwitchConfig/imcontrol_setups/example_uc2_storm_alliedvision.json`
+
+```json
 {
   "positioners": {
     "ESP32Stage": {
@@ -215,23 +201,13 @@ For the control and acquisition software, we use ImSwitch. This is an open-sourc
 }
 ```
 
+## ImSwitch in Action
+
+Here you can find a tour on Youtube how to set up everything and what it can do.
+
 <p align="center">
 <a href="https://www.youtube.com/watch?v=r8f-wmeq5i0" name="logo"><img src="https://i3.ytimg.com/vi/r8f-wmeq5i0/maxresdefault.jpg"></a>
 </p>
-
-
-
-
-## Custom Python code *IF APPLICABLE*
-We also provide a code example for driving the device using a python driver. Please refer to the code and the package in the folder [PYTHON](./PYTHON).
-
-
-## *CUSTOM FANCY SOFTWARE*
-We also provide *SOME SORCERY* for driving the device. Find the files in folder [*MY_AWESOME_SOFTWARE*]().
-
-# Hardware
-
-Below we describe how the device can be build and assembled in order to replicate the whole system as shown in the rendering above. One needs additional parts that can be found in the core [openUC2 repository](https://github.com/bionanoimaging/UC2-GIT).
 
 
 ## Bill of material
@@ -242,11 +218,9 @@ Below you will find all components necessary to build this device
 
 All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (Galaxy Black) at layer height x.x mm and infill xx%.
 
+An in-depth tutorial on how to build the XY-stage can be found here https://github.com/openUC2/
 
-|  Type | Details  |  Price | Link  |
-|---|---|---|---|
-| *FANCY* Holder |  *IT HOLD OTHER FANCY PARTS* |  x,xx € | [Part.stl](./STL/)  |
-
+An in-depth tutorial on how to build the Z-stage can be found here https://github.com/openUC2/
 
 
 | Printed  | UC2             | Linear Stage mount                                                                                                             | 00_Linear_Stage_NEMA11_Mount.ipt                               | 1  | $5.00   | 5   |
@@ -287,59 +261,21 @@ All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (
 | External | Chroma          | Chroma ZT640                                                                                                                   | 00_Chroma_ZT640rdc.ipt                                         | 1  | $250.00 | 250 |
 | External | -               | Linear Stage 50mm , Nema 12, MGN9h                                                                                             |                                                                | 1  | 50      | 50  |
 
-### Additional parts
-This is used in the current version of the setup
-
-|  Type | Details  |  Price | Link  |
-|---|---|---|---|
-| *FANCY* Part | *IT DOES SOME MAGIC* |  xx € | [My favourite online shop]()  |
-
 ### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. *FOR ANOTHER FORMAT, GET YOUR OWN FOLDER.*
 
+The original design files are in the [INVENTOR](./INVENTOR) folder.
 
 ### Electronics
-*THE FANCY ELECTRONICS TO RUN THE MOTOR! ...OR WHATEVER YOU USE THERE.*
+
+Here we make use of the ESP32 Wemos D1 R32 microcontroller board in combination with the CNC Shield v3. The wiring of the different components is straight forward as the Stepper Motors are attached to the stepper drivers and the Laser is triggered by the `SpinEn` pin. The NeoPixel LED mounts to the  `Hold` pin.
 
 <p align="center">
 <a href="#logo" name="logo"><img src="./IMAGES/UC2_STORM.png"></a>
 </p>
 
-### Assembly of the DEVICE
+#### Flashing the firmware
 
-***1.*** *These are the parts needed for the DEVICE*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *Start by ...*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *Continue with ...*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *DONE! LOOK AT THE BEAUTY!*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-
-## Showcase
-*AWESOME RESULTS!*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***Fig 1.*** *MY MOST AWSOME IMAGE*
+Go to the website https://youseetoo.github.io/ and choose the CNC board as the hardware configuration to flash the latest version of the Firmware. The PS3 controller's MAC address has to be setup with the PS Pairing tool. The actual MAC Address is printed out on the Serial monitor while the Board is booting up.
 
 
 ## Get Involved
