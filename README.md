@@ -278,6 +278,36 @@ Here we make use of the ESP32 Wemos D1 R32 microcontroller board in combination 
 Go to the website https://youseetoo.github.io/ and choose the CNC board as the hardware configuration to flash the latest version of the Firmware. The PS3 controller's MAC address has to be setup with the PS Pairing tool. The actual MAC Address is printed out on the Serial monitor while the Board is booting up.
 
 
+## Showcase
+
+Here you can see the device in action:
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/microscope_1.jpeg"></a>
+</p>gith
+
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/microscope_2.jpeg"></a>
+</p>
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/microscope_3.jpeg"></a>
+</p>
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/microscope_4.jpeg"></a>
+</p>
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/microscope_5.jpeg"></a>
+</p>
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/microscope_6.jpeg"></a>
+</p>
+
+
 ## Get Involved
 
 This project is open so that anyone can get involved. You don't even have to learn CAD designing or programming. Find ways you can contribute in  [CONTRIBUTING](https://github.com/openUC2/UC2-GIT/blob/master/CONTRIBUTING.md)
