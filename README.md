@@ -26,9 +26,11 @@ This repository will help you to build *a widefield fluorescence microscope and 
 
 ***Features:***
 * Single-channel fluorescence imaging
+* Bright-field imaging
 * XYZ motorized automated microscopy
 * LED Matrix for quantitative imaging
-* Fully integrated into ImSwitch
+* Steering fully integrated into ImSwitch
+
 
 
 # Software
@@ -216,7 +218,7 @@ Below you will find all components necessary to build this device
 
 ### 3D printing files
 
-All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (Galaxy Black) at layer height x.x mm and infill xx%.
+All these files need to be printed. We used a Prusa i3 MK3S using PLA Prusament (Galaxy Black) at layer height 0.15 mm and infill varying between 20-40 %, depending on how much weight rests on the 3D printed part. For applications within the incubator, the use of ABS Prusament is recommended, as the thermal stability is noticeably increasing the setups stability, especially with increased working temperature and humidity. The layer height and the infill can be chosen identically for ABS as for PLA parts. 
 
 An in-depth tutorial on how to build the XY-stage can be found here https://github.com/openUC2/
 
@@ -279,7 +281,7 @@ Go to the website https://youseetoo.github.io/ and choose the CNC board as the h
 
 
 ## Showcase
-
+The compact size of the setup and the modular character allow to adapt the setup to any incubator. ImSwitch can be started from any given compute ror laptop. Simple USB cables connect the microscope to the outside (computer) for full control over its functionalities. 
 Here you can see the device in action:
 
 <p align="center">
@@ -306,6 +308,19 @@ Here you can see the device in action:
 <p align="center">
 <a href="#logo" name="logo"><img src="./IMAGES/microscope_6.jpeg"></a>
 </p>
+
+
+
+## Wide-field imaging
+
+
+## Mechanical stability of the setup
+
+## Live-cell imaging
+
+## Single molecule applications
+
+
 
 
 ## Get Involved
