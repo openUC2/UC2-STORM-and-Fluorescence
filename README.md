@@ -32,6 +32,196 @@ This repository will help you to build *a widefield fluorescence microscope and 
 * Steering fully integrated into ImSwitch
 
 
+## Assembly
+
+Certainly! The instructions you provided seem like a comprehensive guide to building a single molecule localization microscope using the modular optical system UC2. Below, I've expanded on a few aspects to ensure that the steps are clear and more detailed, providing information about some safety precautions, required materials, and additional tips.
+
+### Microscope Building Instructions
+
+#### 0. Introduction and Precautions
+
+Before we begin, make sure that you are working in a well-ventilated area and wearing appropriate safety gear, such as goggles and gloves. Handling lasers requires caution, so follow the manufacturer's guidelines and take necessary safety measures.
+
+#### Materials and Tools Needed:
+
+- UC2 modular optical system components
+- Camera with the compatible mounting system
+- Achromatic lens with a suitable mount
+- 3D printer (for creating mounts)
+- Thorlabs 20mm tube or equivalent
+- Laser with adaptable profile
+- Convex lenses
+- Diffuser (cling foil, etc.)
+- Motor-driven translation stage
+- 3D printed gears and timing belts
+- Commercial XY stage
+- 4-well/8-well chambers and circular 18 mm/25 mm cover glass holders
+- Alignment tools, such as apertures
+- LED for top-light illumination
+- Various screws, bolts, and tools for assembly
+- Protective gear for handling lasers and other delicate components
+
+#### 1. Detection Layer
+
+
+The camera is positioned within a cube, so that the camera chip is
+centered. At a distance of 100 mm, the tube lens is positioned on the
+same optical axis. As a cube is 50 mm broad, an empty cube is placed
+between the camera and the lens. A 3D printed mount is combined with a
+Thorlabs 20 mm tube, to which a mounted achromatic lens can be screwed
+to the tube. The 3D printed mount is thick enough to not tilt while
+still being movable. The 3D printed mount holding the lens is moved to
+focus an object on the camera. The mirror can be placed in front of the
+camera or before the tube lens. The mirror is tiltable along two axes.
+The emissions from the objective are parallel. The distance can be
+chosen accordingly to the build. A mirror tilted by 45 degrees reflects
+the vertical emissions of the sample into the tube lens and subsequently
+onto the camera.
+
+![](./IMAGES/image1.png)
+
+Emissions from the objective are reflected by the mirror, focused by the
+tube lens, displaced with the tiltable mirror and imaged on the
+detector.
+
+#### 2. Laser
+
+
+The laser profile can be tuned to match the application the microscope
+will be used for. When imaging a Chroma red fluorescent slide, the laser
+profile can be characterized. Without any modification, the laser only
+illuminates a subset of the field of view. By adding a telescope build,
+the laser beam is magnified. The telescope is built by placing two
+convex lenses in a distance equal to the sum of their focal distances in
+the light path. The magnification can then be calculated by the ratio of
+the focal lengths (e.g. f1 = 3\*f2 magn. = 3x). If the beam is not
+homogeneous or does not have a smooth profile or patterns that vary over
+time, the beam can be homogenized through diffusing the light in the
+common focal point of both telescope lenses. The diffuser can be as
+simple as a cling foil, attached to a rotor or a fan motor and spinning
+the foil.
+
+![](./IMAGES/image2.png)
+
+![](./IMAGES/image3.png)
+
+![](![](./IMAGES/image4.png)
+
+![](![](./IMAGES/image5.png)
+
+Here, the lens l1 is focusing onto the rotating cling foil. The diffused beam is magnified by the lens l2. The
+resulting beam profiles can be seen in following images:
+
+The laser beam without magnification (left) has a smaller spot with high
+laser intensity. The illumination is not homogeneous but can be
+advantageous for applications needing higher laser densities. The laser
+profile with a 2 times magnification (middle) and the magnification with
+diffuser (right) enable homogeneous illumination of most of the field of
+view.
+
+##### Tips:
+
+- Ensure that the diffuser is balanced properly to avoid vibrations that might affect the image quality.
+- Calibration of the laser profile according to the application is crucial. Make sure to test different magnifications and diffusions.
+
+#### 3. Excitation Layer
+
+The laser emission can be chosen accordingly. The laser beam is then
+focused by a lens into the back focal plane of the objective (here after
+the filter cube in a higher vertical plane). Through a tiltable mirror,
+the beam can be positioned into the center of the field of view. The
+filter cube has filters adapted to the laser and the fluorophores used
+in the experiments. The mount for the laser, the lens, the mirror as
+well as the filter cube can all be 3D printed.
+
+![](./IMAGES/image6.png)
+
+
+##### Tips:
+
+- Ensure that all 3D printed components fit perfectly with the rest of the parts.
+- The choice of filters must correspond with the laser and the fluorophores used in the experiments.
+
+#### 4. Z Stage
+
+![](./IMAGES/image7.png)
+
+The z stage is a motor driven translation stage. The
+stage is embedded into a 3D printed case to make the dimensions fit the
+cube design. A puzzle piece on the top and in the bottom allow to build
+a stable connection between the stage and the rest of the microscope. A
+3D printed objective holder connects the stage to the objective. It is
+advised to print the objective holder with a high percentage of infill
+and a stable plastic, as the heavy objective causes strain on the
+material.
+
+##### Tips:
+
+- Careful selection of the material for the objective holder is crucial to withstand the weight and strain.
+
+#### 5. XY Stage
+
+The XY stage used in the current build is a commercial solution. The
+manual translation knobs were equipped with 3D printed gears. In order
+to motorize the stage, motors which were also equipped with gears
+transmitted the torque to the stage via timing belts. These were printed
+with a softer and thus more elastic plastic. The whole stage is attached
+to the rest of the microscope via a 3D printed plate, working as a
+replacement for a puzzle layer, with the according perforations where
+connections to the top layer of cubes was provided. Furthermore, the
+stage needs a 3D printed insert, to hold the sample. Models for
+4-well/8-well chambers and circular 18 mm/25 mm cover glass holders are
+available. An alternative where the coverglass is directly embedded into
+the 3D printed sample holder is also provided.
+
+
+##### Tips:
+
+- Calibration and testing of the XY stage should be done to ensure smooth and accurate movement.
+
+#### 6. Alignment Procedure
+
+To align the optics, the first step is to position all optics along the
+optical axis and ensure that they are not tilted. To make this procedure
+more systematic, the excitation pathway is aligned with an aperture,
+which is placed between the second lens of the telescope build and the
+lens focusing the laser in the back focal plane of the objective. While
+imaging a fluorescent slide, an almost closed aperture is placed to
+match the maximum of the laser excitation. This allows to know the
+position of the laser within the sample. The emission pathway is then
+adjusted to have the aperture in the center of the field of view. This
+way, the maximal laser intensity spot is in the center of the field of
+view, which should both theoretically be along the optical axis.
+
+##### Tips:
+
+- Proper alignment is essential for obtaining accurate results. Take your time and follow systematic procedures.
+- Specialized alignment tools and techniques might be needed for precise adjustments.
+
+#### 7. Top Light Illumination
+
+The illumination for bright-field imaging needs to be spatially
+invariant in relation to the objective. It is important to attach the
+top-light illumination to the main body of the microscope instead of the
+XY stage. This is achieved by attaching an LED to a 3D printed arm,
+connected to the highest puzzle layer, thus decoupled of the possible
+motions of the XY-stage.
+
+
+##### Tips:
+
+- The brightness of the LED should be adjustable to suit various imaging requirements.
+- Consider using a diffuser to create more uniform illumination across the sample.
+
+### Conclusion
+
+Building a single molecule localization microscope with the modular optical system UC2 is an exciting and challenging project. This guide provides a step-by-step approach to construct the microscope and align its various components. Always remember to follow safety precautions and consult manufacturer's guidelines or a professional if you are unsure about any step.
+
+Feel free to share your progress and ask questions on GitHub or other platforms, as the scientific community can be of great assistance in such projects.
+
+Happy building!
+
+
 
 # Software
 
@@ -218,7 +408,7 @@ Below you will find all components necessary to build this device
 
 ### 3D printing files
 
-All these files need to be printed. We used a Prusa i3 MK3S using PLA Prusament (Galaxy Black) at layer height 0.15 mm and infill varying between 20-40 %, depending on how much weight rests on the 3D printed part. For applications within the incubator, the use of ABS Prusament is recommended, as the thermal stability is noticeably increasing the setups stability, especially with increased working temperature and humidity. The layer height and the infill can be chosen identically for ABS as for PLA parts. 
+All these files need to be printed. We used a Prusa i3 MK3S using PLA Prusament (Galaxy Black) at layer height 0.15 mm and infill varying between 20-40 %, depending on how much weight rests on the 3D printed part. For applications within the incubator, the use of ABS Prusament is recommended, as the thermal stability is noticeably increasing the setups stability, especially with increased working temperature and humidity. The layer height and the infill can be chosen identically for ABS as for PLA parts.
 
 An in-depth tutorial on how to build the XY-stage can be found here https://github.com/openUC2/
 
@@ -281,7 +471,7 @@ Go to the website https://youseetoo.github.io/ and choose the CNC board as the h
 
 
 ## Showcase
-The compact size of the setup and the modular character allow to adapt the setup to any incubator. ImSwitch can be started from any given compute ror laptop. Simple USB cables connect the microscope to the outside (computer) for full control over its functionalities. 
+The compact size of the setup and the modular character allow to adapt the setup to any incubator. ImSwitch can be started from any given compute ror laptop. Simple USB cables connect the microscope to the outside (computer) for full control over its functionalities.
 Here you can see the device in action:
 
 <p align="center">
