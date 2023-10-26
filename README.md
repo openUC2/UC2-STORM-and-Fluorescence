@@ -61,6 +61,11 @@ Certainly! The instructions you provided seem like a comprehensive guide to buil
 
 ### Microscope Building Instructions
 
+
+![](./IMAGES/setup_building2.jpg)
+
+
+
 #### 0. Introduction and Precautions
 
 Before we begin, make sure that you are working in a well-ventilated area and wearing appropriate safety gear, such as goggles and gloves. Handling lasers requires caution, so follow the manufacturer's guidelines and take necessary safety measures.
