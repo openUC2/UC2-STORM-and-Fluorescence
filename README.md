@@ -59,6 +59,10 @@ bioRxiv 2023.05.31.542706; doi: https://doi.org/10.1101/2023.05.31.542706
 
 Certainly! The instructions you provided seem like a comprehensive guide to building a single molecule localization microscope using the modular optical system UC2. Below, I've expanded on a few aspects to ensure that the steps are clear and more detailed, providing information about some safety precautions, required materials, and additional tips.
 
+### Possible to assemble in <2 Minutes 
+
+![](./IMAGES/assembly_final.gif)
+
 ### Microscope Building Instructions
 
 ![](./IMAGES/setup_building2.jpg)
