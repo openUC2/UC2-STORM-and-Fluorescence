@@ -23,6 +23,11 @@ five hours.
 
 # Live-cell imaging at within the incubator
 
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/microscope_1.jpeg"></a>
+</p>gith
+Microscope is placed within the incubator for continuous imaging in the fluorescent as well as top-light channel. Some incubators have a special passage for cables. In this case, the cables were just led on the rubber guard band on the edge of the incubator. To minimize the disturbance through the cables and help the incubator be more air-tight, the cables can be replaced by flat-cables.
+
 ![](./IMAGES/STORM/image15.png)
 Live cell imaging of T98G cells stained with SYTO far red nucleic dye
 over a period of two days within an incubator.
