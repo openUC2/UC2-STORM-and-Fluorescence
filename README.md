@@ -365,7 +365,7 @@ REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
 
 
 ## Collaborating
-If you find this project useful, please like this repository, follow us on Twitter and cite the webpage! :-)
+If you find this project useful, please like this repository, follow us on Twitter and cite the webpage or the publication! :-)
 
 
 
