@@ -62,6 +62,7 @@ Certainly! The instructions you provided seem like a comprehensive guide to buil
 ### Possible to assemble in <2 Minutes 
 
 ![](./IMAGES/assembly_final.gif)
+Obviously, adjusting the lenses and mirrors, as well as adapting self-made 3D printed parts will take some time. However, the framework of the microscope is rapid and simple to build. The cubes can simply be stuck together to get the outlay of the microscope in few minutes. This allows to swiftly exchange modules, make changes and even replace components.
 
 ### Microscope Building Instructions
 
