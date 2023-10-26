@@ -89,7 +89,7 @@ Before we begin, make sure that you are working in a well-ventilated area and we
 
 #### 1. Detection Layer
 
-
+The schematic of the layer and the actual composition can be seen in the **setup building figure**.
 The camera is positioned within a cube, so that the camera chip is
 centered. At a distance of 100 mm, the tube lens is positioned on the
 same optical axis. As a cube is 50 mm broad, an empty cube is placed
@@ -117,15 +117,8 @@ will be used for. When imaging a Chroma red fluorescent slide, the laser
 profile can be characterized, and possible variations or inhomogenities can be removed.
 Without any modification, the laser only
 illuminates a subset of the field of view. By adding a telescope build,
-the laser beam is magnified. The telescope is built by placing two
-convex lenses in a distance equal to the sum of their focal distances in
-the light path. The magnification can then be calculated by the ratio of
-the focal lengths (e.g. f1 = 3\*f2 magn. = 3x). If the beam is not
-homogeneous or does not have a smooth profile or patterns that vary over
-time, the beam can be homogenized through diffusing the light in the
-common focal point of both telescope lenses. The diffuser can be as
-simple as a cling foil, attached to a rotor or a fan motor and spinning
-the foil.
+the laser beam is magnified. The modifications proposed in the **Illumination** section show different illumination patterns, leading to different possible imaging modalities.
+
 <!---
 ![](./IMAGES/image2.png)
 
@@ -158,7 +151,7 @@ the filter cube in a higher vertical plane). Through a tiltable mirror,
 the beam can be positioned into the center of the field of view. The
 filter cube has filters adapted to the laser and the fluorophores used
 in the experiments. The mount for the laser, the lens, the mirror as
-well as the filter cube can all be 3D printed.
+well as the filter cube can all be 3D printed. The schematic and actual photograph of the layer within the setup are shown in the **setup building figure**.
 <!---
 ![](./IMAGES/image6.png)
 --->
