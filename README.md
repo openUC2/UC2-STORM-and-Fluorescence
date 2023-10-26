@@ -61,10 +61,8 @@ Certainly! The instructions you provided seem like a comprehensive guide to buil
 
 ### Microscope Building Instructions
 
-
 ![](./IMAGES/setup_building2.jpg)
-
-
+**Building the UC2 widefield microscope: a.** Photograph of the finished setup. **b.** Photograph of all single pieces of the dismanteled setup. The bill of materials lists all these components, including CAD files for the 3D printed parts. **c.** Emission pathway of the microscope. **d.** Stability increased by using a layer of puzzles below and above the cubes. **e.** CAD schematic of the emission pathway. **f.** Excitation pathway of the microscope. **g.** Excitation layer is also covered by a puzzle layer. **h.** CAD schematic of the excitation pathway. **i.** Z-stage photograph and corresponding CAD file. **j.** Empty cubes work as place-holder between the excitation layer and the microscope stage. **k.** The objective is screwed into the objective holder. **l.** By wiring the electronica the stage is ready to use and the microscope functional (see photograph in **a.**).
 
 #### 0. Introduction and Precautions
 
