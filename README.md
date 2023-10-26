@@ -126,7 +126,7 @@ time, the beam can be homogenized through diffusing the light in the
 common focal point of both telescope lenses. The diffuser can be as
 simple as a cling foil, attached to a rotor or a fan motor and spinning
 the foil.
-
+<!---
 ![](./IMAGES/image2.png)
 
 ![](./IMAGES/image3.png)
@@ -144,7 +144,7 @@ advantageous for applications needing higher laser densities. The laser
 profile with a 2 times magnification (middle) and the magnification with
 diffuser (right) enable homogeneous illumination of most of the field of
 view.
-
+--->
 ##### Tips:
 
 - Ensure that the diffuser is balanced properly to avoid vibrations that might affect the image quality.
@@ -159,9 +159,9 @@ the beam can be positioned into the center of the field of view. The
 filter cube has filters adapted to the laser and the fluorophores used
 in the experiments. The mount for the laser, the lens, the mirror as
 well as the filter cube can all be 3D printed.
-
+<!---
 ![](./IMAGES/image6.png)
-
+--->
 
 ##### Tips:
 
@@ -169,9 +169,9 @@ well as the filter cube can all be 3D printed.
 - The choice of filters must correspond with the laser and the fluorophores used in the experiments.
 
 #### 4. Z Stage
-
+<!---
 ![](./IMAGES/image7.png)
-
+--->
 The z stage is a motor driven translation stage. The
 stage is embedded into a 3D printed case to make the dimensions fit the
 cube design. A puzzle piece on the top and in the bottom allow to build
@@ -365,7 +365,7 @@ REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
 If you find this project useful, please like this repository, follow us on Twitter and cite the webpage or the publication! :-)
 
 
-
+<!---
 # Unsorted Images
 ![](./IMAGES/Application_Fluorescence_Microscope_Infinity_Inverted_STORM_v3.png)
 ![](./IMAGES/Application_Fluorescence_Microscope_Infinity_Inverted_STORM_v3_1.png)
@@ -401,3 +401,4 @@ If you find this project useful, please like this repository, follow us on Twitt
 ![](./IMAGES/SetupImages_4.jpeg)
 ![](./IMAGES/SetupImages_5.jpeg)
 ![](./IMAGES/SetupImages_6.jpeg)
+--->
