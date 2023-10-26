@@ -312,6 +312,7 @@ Here you can see the device in action:
 <a href="#logo" name="logo"><img src="./IMAGES/microscope_1.jpeg"></a>
 </p>gith
 
+Example of the setup being used within a cell culture incubator for continuous imaging of cells.
 
 <p align="center">
 <a href="#logo" name="logo"><img src="./IMAGES/microscope_2.jpeg"></a>
