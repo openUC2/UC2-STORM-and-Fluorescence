@@ -14,8 +14,19 @@ homogenized illumination across the field of view, which is more
 desirable for imaging assays with lower requirements in terms of laser
 density.
 
-The construction consists of a telescopic lens arrangement with a
-diffusor rotating in the focal point of both lenses. A simplified
+![](./IMAGES/image2.png)
+The telescope is built by placing two
+convex lenses in a distance equal to the sum of their focal distances in
+the light path. The magnification can then be calculated by the ratio of
+the focal lengths (e.g. f1 = 3\*f2 magn. = 3x). If the beam is not
+homogeneous or does not have a smooth profile or patterns that vary over
+time, the beam can be homogenized through diffusing the light in the
+common focal point of both telescope lenses. The diffuser can be as
+simple as a cling foil, attached to a rotor or a fan motor and spinning
+the foil.
+
+A photograph of the construction consisting of a telescopic lens arrangement with a
+diffusor rotating in the focal point of both lenses is showed in the figure below. A simplified
 version can be built by combining a fan, where the rotor blades have
 been removed, with a piece of cling foil as diffusing material.
 
