@@ -106,7 +106,7 @@ Fig. 8: Top light illumination via a 3D printed arm holding a red (635
 nm) LED. Alternatively, a high-power white LED or an LED array can be
 used as top-light illumination.
 
-
+<!---
 ## Imaging with the UC2-STORM setup
 
 ![](./IMAGES/STORM/image12.png)
@@ -187,3 +187,5 @@ immuno-stained with AF647 conjugated nanobodies. Scale bar for
 represents 10 µm. Two CCPs have been zoomed in to plot the profiles
 along the red transparent line. Scale bar for the magnified regions of
 interest represents 200 nm.
+
+--->
