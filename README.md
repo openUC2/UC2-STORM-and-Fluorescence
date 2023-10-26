@@ -103,19 +103,19 @@ The emissions from the objective are parallel. The distance can be
 chosen accordingly to the build. A mirror tilted by 45 degrees reflects
 the vertical emissions of the sample into the tube lens and subsequently
 onto the camera.
-
+<!---
 ![](./IMAGES/image1.png)
 
 Emissions from the objective are reflected by the mirror, focused by the
 tube lens, displaced with the tiltable mirror and imaged on the
 detector.
-
+--->
 #### 2. Laser
-
 
 The laser profile can be tuned to match the application the microscope
 will be used for. When imaging a Chroma red fluorescent slide, the laser
-profile can be characterized. Without any modification, the laser only
+profile can be characterized, and possible variations or inhomogenities can be removed.
+Without any modification, the laser only
 illuminates a subset of the field of view. By adding a telescope build,
 the laser beam is magnified. The telescope is built by placing two
 convex lenses in a distance equal to the sum of their focal distances in
