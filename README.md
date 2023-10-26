@@ -396,7 +396,7 @@ If you find this project useful, please like this repository, follow us on Twitt
 ![](./IMAGES/microscope_5.jpeg)
 ![](./IMAGES/microscope_6.jpeg)
 ![](./IMAGES/STORM.gif)
-![](./IMAGES/STORM2.png)
+
 ![](./IMAGES/UC2_STORM.png)
 ![](./IMAGES/SetupImages_1.jpeg)
 ![](./IMAGES/SetupImages_2.jpeg)
