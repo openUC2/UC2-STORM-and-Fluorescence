@@ -334,17 +334,13 @@ Here you can see the device in action:
 </p>
 
 
-
-## Wide-field imaging
-
-
 ## Mechanical stability of the setup
 
-## Live-cell imaging
+See the mechanical stability section of the repository.
 
-## Single molecule applications
+## Wide-field imaging, Live-cell imaging, Single molecule applications
 
-
+See the Results section of the repository.
 
 
 ## Get Involved
