@@ -54,7 +54,7 @@ population which seems to have a maximum around
 $D = 0,1\\frac{\\text{µm}^{2}}{s}$ and corresponds to the random
 diffusion of GPI on the cell membrane.
 
-# Super-resolution imging with _d_STORM  
+# Super-resolution imging with *d*STORM  
 
 ![](./IMAGES/STORM/image18.png)
 
@@ -84,7 +84,7 @@ objectives listed in the top of the image. The scale bars in the 20 ×,
 60 × and 100 × magnified images respectively represent 30 µm.
 
 
-# _d_STORM using a lower budget objective
+# *d*STORM using a lower budget objective
 
 ![](./IMAGES/STORM/image20.png)
 
