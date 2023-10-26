@@ -1,5 +1,7 @@
 ## Imaging with the UC2-STORM setup
 
+# Widefield imaging with the UC2 setup
+
 ![](./IMAGES/STORM/image12.png)
 
 Widefield images of CV-1 cells immune-stained against tubulin, at
@@ -15,15 +17,21 @@ Widefield images of immune-stained clathrin coated pits (left),
 immune-stained tubulin (middle) and SiR Actin stain of CV-1 cells with
 the UC2 setup and a 60x objective. Scale bar represents 25 µm.
 
+# Live-cell imaging at room temperature
+
 ![](./IMAGES/STORM/image14.png)
 
 Live cell imaging of CV-1 cells stained with SiR actin over a period of
 five hours.
 
+# Live-cell imaging at within the incubator
+
 ![](./IMAGES/STORM/image15.png)
 
 Live cell imaging of T98G cells stained with SYTO far red nucleic dye
 over a period of two days within an incubator.
+
+# Single molecule application: Single Particle Tracking 
 
 ![](./IMAGES/STORM/image16.png)
 
@@ -46,6 +54,8 @@ population which seems to have a maximum around
 $D = 0,1\\frac{\\text{µm}^{2}}{s}$ and corresponds to the random
 diffusion of GPI on the cell membrane.
 
+# Super-resolution imging with _d_STORM  
+
 ![](./IMAGES/STORM/image18.png)
 
 *d*STORM image of microtubules reconstructed from wide-field images
@@ -62,6 +72,9 @@ sample after immuno-staining and the resulting railroad tracks.
 
 ## Imaging with lower-budget objectives
 
+
+# Widefield comparison between high-quality and lower-budget objectives
+
 ![](./IMAGES/STORM/image19.png)
 
 Stable HeLa cell-line with Clathrin light chain-GFP stained with AF647
@@ -69,6 +82,9 @@ conjugated anti-GFP nanobodies, in the fluorescence as well as the
 brightfield channel. Images have been acquired with the different
 objectives listed in the top of the image. The scale bars in the 20 ×,
 60 × and 100 × magnified images respectively represent 30 µm.
+
+
+# _d_STORM using a lower budget objective
 
 ![](./IMAGES/STORM/image20.png)
 
